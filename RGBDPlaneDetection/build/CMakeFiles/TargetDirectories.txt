@@ -1,0 +1,3 @@
+/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build/CMakeFiles/RGBDPlaneDetection.dir
+/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build/CMakeFiles/ALL_BUILD.dir
+/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4C855E63DCB3484CA3D6C4A6 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 989202DA52F2444A8BA17865 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EBD978804A3D4C1187E10DCF /* CMake Rules */,
+			);
+			dependencies = (
+				70E6096C78CD4530BB8169E9 /* PBXTargetDependency */,
+				6D47449D99DC438784C320C4 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A798FE5A1D7D4BF0A0AE8B8B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E7F5529680FC4044AC911002 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0E5E8B09F0A34B449EBA8342 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2AEABEFE3079454B8948C59A /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F503E7588B3C435A8025DBCA /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/CMakeLists.txt */; };
+		3AB2ED0BD0F14D7DA5F088B0 /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/main.cpp */ = {isa = PBXBuildFile; fileRef = FB80F50B92F54A4D9C771A4D /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/main.cpp */; };
+		669FA0389C4448BC9FE84E1B /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/plane_detection.cpp */ = {isa = PBXBuildFile; fileRef = 58D72B1890E644BE8A93F1A7 /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/plane_detection.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		781014485DE44945B609E7BD /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		CCA710EB7736462A90C473AE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E67435A46E454C2BA6987740 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FDFA76F27B854545970DD267 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		816878BAF8F54D419AD9AB9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B67E549EB41A4075A606AE39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A798FE5A1D7D4BF0A0AE8B8B;
+			remoteInfo = ZERO_CHECK;
+		};
+		9FC2C8AD228F46BD9EB7EEA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B67E549EB41A4075A606AE39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A798FE5A1D7D4BF0A0AE8B8B;
+			remoteInfo = ZERO_CHECK;
+		};
+		CB81F3163FE843E0892EBFEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B67E549EB41A4075A606AE39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 057CAFE76E66469782E3FA4D;
+			remoteInfo = RGBDPlaneDetection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19A8A57CA8E74BC7A127BDEF /* RGBDPlaneDetection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = RGBDPlaneDetection; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D72B1890E644BE8A93F1A7 /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/plane_detection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plane_detection.cpp; path = plane_detection.cpp; sourceTree = SOURCE_ROOT; };
+		7A4739DC64794D60B5B8FB47 /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F503E7588B3C435A8025DBCA /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FB80F50B92F54A4D9C771A4D /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		228F9FBFBBA948E48316E676 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3FEFC682D58547FF899A6349 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				228F9FBFBBA948E48316E676 /* CMake Rules */,
+				7A4739DC64794D60B5B8FB47 /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4E9A5FE76A434886BBA845A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A8A57CA8E74BC7A127BDEF /* RGBDPlaneDetection */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E78555F9FC40B292CF41D8 /* RGBDPlaneDetection */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F1AFB5DD540CEBE95D944 /* Source Files */,
+				F503E7588B3C435A8025DBCA /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/CMakeLists.txt */,
+			);
+			name = RGBDPlaneDetection;
+			sourceTree = "<group>";
+		};
+		CE1F1AFB5DD540CEBE95D944 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB80F50B92F54A4D9C771A4D /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/main.cpp */,
+				58D72B1890E644BE8A93F1A7 /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/plane_detection.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F76DCCA0F5BB45FDBA5BF0B7 = {
+			isa = PBXGroup;
+			children = (
+				55E78555F9FC40B292CF41D8 /* RGBDPlaneDetection */,
+				3FEFC682D58547FF899A6349 /* ALL_BUILD */,
+				4E9A5FE76A434886BBA845A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		057CAFE76E66469782E3FA4D /* RGBDPlaneDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D819A037063C48B0A08833D8 /* Build configuration list for PBXNativeTarget "RGBDPlaneDetection" */;
+			buildPhases = (
+				227F1D17943E451E917DF867 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B883EB1A7C4281BC0F729E /* PBXTargetDependency */,
+			);
+			name = RGBDPlaneDetection;
+			productName = RGBDPlaneDetection;
+			productReference = 19A8A57CA8E74BC7A127BDEF /* RGBDPlaneDetection */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B67E549EB41A4075A606AE39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = 7B94B14230034AA880D012BF /* Build configuration list for PBXProject "RGBDPlaneDetection" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E67435A46E454C2BA6987740 /* Debug */,
+				FDFA76F27B854545970DD267 /* Release */,
+				781014485DE44945B609E7BD /* MinSizeRel */,
+				CCA710EB7736462A90C473AE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F76DCCA0F5BB45FDBA5BF0B7;
+			projectDirPath = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection;
+			projectRoot = "";
+			targets = (
+				4C855E63DCB3484CA3D6C4A6 /* ALL_BUILD */,
+				057CAFE76E66469782E3FA4D /* RGBDPlaneDetection */,
+				A798FE5A1D7D4BF0A0AE8B8B /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5E8B09F0A34B449EBA8342 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build -f /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8DC85F1195A246A2A469D5D4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9ADB1C42D9F84752A4A41A1F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EBD978804A3D4C1187E10DCF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build -f /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227F1D17943E451E917DF867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB2ED0BD0F14D7DA5F088B0 /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/main.cpp */,
+				669FA0389C4448BC9FE84E1B /* /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/plane_detection.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D47449D99DC438784C320C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A798FE5A1D7D4BF0A0AE8B8B /* ZERO_CHECK */;
+			targetProxy = 9FC2C8AD228F46BD9EB7EEA0 /* PBXContainerItemProxy */;
+		};
+		70E6096C78CD4530BB8169E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 057CAFE76E66469782E3FA4D /* RGBDPlaneDetection */;
+			targetProxy = CB81F3163FE843E0892EBFEB /* PBXContainerItemProxy */;
+		};
+		A3B883EB1A7C4281BC0F729E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A798FE5A1D7D4BF0A0AE8B8B /* ZERO_CHECK */;
+			targetProxy = 816878BAF8F54D419AD9AB9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A7733612CF4613B18E0B74 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build/build;
+			};
+			name = MinSizeRel;
+		};
+		1F5BC91B89664294B8309FCE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include/eigen3,/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/peac,/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2 /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2";
+				OTHER_CPLUSPLUSFLAGS = "-fpermissive     -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_dnn.4.0.0.dylib /usr/local/lib/libopencv_gapi.4.0.0.dylib /usr/local/lib/libopencv_ml.4.0.0.dylib /usr/local/lib/libopencv_objdetect.4.0.0.dylib /usr/local/lib/libopencv_photo.4.0.0.dylib /usr/local/lib/libopencv_stitching.4.0.0.dylib /usr/local/lib/libopencv_video.4.0.0.dylib -lMRF /usr/local/lib/libopencv_calib3d.4.0.0.dylib /usr/local/lib/libopencv_features2d.4.0.0.dylib /usr/local/lib/libopencv_flann.4.0.0.dylib /usr/local/lib/libopencv_highgui.4.0.0.dylib /usr/local/lib/libopencv_videoio.4.0.0.dylib /usr/local/lib/libopencv_imgcodecs.4.0.0.dylib /usr/local/lib/libopencv_imgproc.4.0.0.dylib /usr/local/lib/libopencv_core.4.0.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RGBDPlaneDetection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3E3E24807D3B4706A3501305 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4CA6527B3D5844168920A523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include/eigen3,/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/peac,/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2 /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2";
+				OTHER_CPLUSPLUSFLAGS = "-fpermissive    '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_dnn.4.0.0.dylib /usr/local/lib/libopencv_gapi.4.0.0.dylib /usr/local/lib/libopencv_ml.4.0.0.dylib /usr/local/lib/libopencv_objdetect.4.0.0.dylib /usr/local/lib/libopencv_photo.4.0.0.dylib /usr/local/lib/libopencv_stitching.4.0.0.dylib /usr/local/lib/libopencv_video.4.0.0.dylib -lMRF /usr/local/lib/libopencv_calib3d.4.0.0.dylib /usr/local/lib/libopencv_features2d.4.0.0.dylib /usr/local/lib/libopencv_flann.4.0.0.dylib /usr/local/lib/libopencv_highgui.4.0.0.dylib /usr/local/lib/libopencv_videoio.4.0.0.dylib /usr/local/lib/libopencv_imgcodecs.4.0.0.dylib /usr/local/lib/libopencv_imgproc.4.0.0.dylib /usr/local/lib/libopencv_core.4.0.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RGBDPlaneDetection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		504A5918D2514EFBBA63198C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		937BB40BED7B42FF9D1BDA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build/build;
+			};
+			name = Release;
+		};
+		9C3814B9B62843138A7D49A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include/eigen3,/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/peac,/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2 /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2";
+				OTHER_CPLUSPLUSFLAGS = "-fpermissive     -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_dnn.4.0.0.dylib /usr/local/lib/libopencv_gapi.4.0.0.dylib /usr/local/lib/libopencv_ml.4.0.0.dylib /usr/local/lib/libopencv_objdetect.4.0.0.dylib /usr/local/lib/libopencv_photo.4.0.0.dylib /usr/local/lib/libopencv_stitching.4.0.0.dylib /usr/local/lib/libopencv_video.4.0.0.dylib -lMRF /usr/local/lib/libopencv_calib3d.4.0.0.dylib /usr/local/lib/libopencv_features2d.4.0.0.dylib /usr/local/lib/libopencv_flann.4.0.0.dylib /usr/local/lib/libopencv_highgui.4.0.0.dylib /usr/local/lib/libopencv_videoio.4.0.0.dylib /usr/local/lib/libopencv_imgcodecs.4.0.0.dylib /usr/local/lib/libopencv_imgproc.4.0.0.dylib /usr/local/lib/libopencv_core.4.0.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RGBDPlaneDetection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9F04787CB66B44349B0DFCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AA75BE938BD5407C93BC750E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BDC710BFD0CA4AD8B12287BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CA5F296C3BC34F1BA98C5A1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D223FA6D74DA4E3983E08443 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		EA866E9499C14268BC5814DC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/opt/local/include/eigen3,/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/peac,/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2 /usr/local/lib";
+				LIBRARY_SEARCH_PATHS = " /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/RGBDPlaneDetection/include/MRF2.2";
+				OTHER_CPLUSPLUSFLAGS = "-fpermissive        -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_dnn.4.0.0.dylib /usr/local/lib/libopencv_gapi.4.0.0.dylib /usr/local/lib/libopencv_ml.4.0.0.dylib /usr/local/lib/libopencv_objdetect.4.0.0.dylib /usr/local/lib/libopencv_photo.4.0.0.dylib /usr/local/lib/libopencv_stitching.4.0.0.dylib /usr/local/lib/libopencv_video.4.0.0.dylib -lMRF /usr/local/lib/libopencv_calib3d.4.0.0.dylib /usr/local/lib/libopencv_features2d.4.0.0.dylib /usr/local/lib/libopencv_flann.4.0.0.dylib /usr/local/lib/libopencv_highgui.4.0.0.dylib /usr/local/lib/libopencv_videoio.4.0.0.dylib /usr/local/lib/libopencv_imgcodecs.4.0.0.dylib /usr/local/lib/libopencv_imgproc.4.0.0.dylib /usr/local/lib/libopencv_core.4.0.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RGBDPlaneDetection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include/opencv4);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EB6A40D9522F408BB2905F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build/build;
+			};
+			name = Debug;
+		};
+		EFE1F815EAF0434BB7B33B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F8106E9DE7194937AE1A3208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Volumes/Work/2019WorkArea/FeatureDetection/RGBDPlaneDetection/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B94B14230034AA880D012BF /* Build configuration list for PBXProject "RGBDPlaneDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6A40D9522F408BB2905F9D /* Debug */,
+				937BB40BED7B42FF9D1BDA63 /* Release */,
+				04A7733612CF4613B18E0B74 /* MinSizeRel */,
+				D223FA6D74DA4E3983E08443 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		989202DA52F2444A8BA17865 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F04787CB66B44349B0DFCB3 /* Debug */,
+				EFE1F815EAF0434BB7B33B72 /* Release */,
+				CA5F296C3BC34F1BA98C5A1E /* MinSizeRel */,
+				3E3E24807D3B4706A3501305 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D819A037063C48B0A08833D8 /* Build configuration list for PBXNativeTarget "RGBDPlaneDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA6527B3D5844168920A523 /* Debug */,
+				9C3814B9B62843138A7D49A0 /* Release */,
+				1F5BC91B89664294B8309FCE /* MinSizeRel */,
+				EA866E9499C14268BC5814DC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E7F5529680FC4044AC911002 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC710BFD0CA4AD8B12287BF /* Debug */,
+				F8106E9DE7194937AE1A3208 /* Release */,
+				504A5918D2514EFBBA63198C /* MinSizeRel */,
+				AA75BE938BD5407C93BC750E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B67E549EB41A4075A606AE39 /* Project object */;
+}
