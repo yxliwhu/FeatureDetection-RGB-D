@@ -1,0 +1,21 @@
+function pcDepthRaw = creatPointcloud(rawimage,depthImg,cameraParamsRGB,cameraParamsIR)
+% rawimage = imread('images/color_000000.png');
+% depthImg = Read_Signal_Depth_Data('images/Depth_000000.R00');
+% depth_cx = cameraParamsRGB.PrincipalPoint(1,1);
+% depth_cy =  cameraParamsRGB.PrincipalPoint(1,2);
+depth_cx = 316.138;
+depth_cy =  249.779;
+depth_Tx = 0;
+depth_Ty = 0;
+% depth_fx =  cameraParamsIR.FocalLength(1,1);
+% depth_fy = cameraParamsIR.FocalLength(1,2);
+depth_fx =  443.4573;
+depth_fy = 443.0242;
+[Db1,Da1,Dc1] = Matrix2XYZ(depthImg);
+Db1 = ((Db1-depth_cx).*Dc1-depth_Tx)./depth_fx;
+Da1 = ((Da1-depth_cy).*Dc1-depth_Ty)./depth_fy;
+R = rawimage(:,:,1);
+G = rawimage(:,:,2);
+B = rawimage(:,:,3);
+pcDepthRaw = pointCloud([Db1',Da1',Dc1'],'color',[R(:),G(:),B(:)]);
+end

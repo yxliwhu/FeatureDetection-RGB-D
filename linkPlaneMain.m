@@ -4,7 +4,7 @@ fprintf('Choose The File Path For The Pairs of Images\n');
 folder_name = uigetdir;
 addpath('./function/');
 [colors,depths,Labels,Infoms] = Read_Input_data(folder_name);
-ResultDir = [folder_name,'/FigureResultinit15_24/'];
+ResultDir = [folder_name,'/FigureResultinit5-24-4-0.06/'];
 mkdir(ResultDir);
 %%
 for k = 1:length(Infoms)
